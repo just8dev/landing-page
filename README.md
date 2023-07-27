@@ -40,7 +40,7 @@ Check out the live demo of Landing Page here: [https://mjustine-65.github.io/lan
 
 ## Acknowledgments
 
-I would like to extend my heartfelt gratitude to [The Odin Project](https://www.theodinproject.com/) for their exceptional curriculum and resources. This project wouldn't have been possible without their comprehensive and structured approach to teaching web development. The hands-on assignments, tutorials, and projects provided by The Odin Project have been instrumental in honing my skills and enabling me to create this simple recipe website.
+I would like to extend my heartfelt gratitude to [The Odin Project](https://www.theodinproject.com/) for their exceptional curriculum and resources. This project wouldn't have been possible without their comprehensive and structured approach to teaching web development. The hands-on assignments, tutorials, and projects provided by The Odin Project have been instrumental in honing my skills and enabling me to create this landing page.
 
 ## Contributions and Feedback
 
