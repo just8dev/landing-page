@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Quicksand:wght@300;400;500;600;700&display=swap');
+
 /* CSS Base: Reset */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -41,3 +43,45 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+body {
+	background-color: #F7F1E5;
+	margin: 0 10%;
+}
+
+.header, .nav {
+	display: flex;
+}
+
+.header {
+	justify-content: space-between;
+	align-items: center;
+	padding: 32px 0;
+  }
+  
+  .header__logo {
+	font-family: 'Oswald', sans-serif;
+	font-size: 25.00px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #0A0B15;
+  }
+  
+  .nav {
+	gap: 16px;
+  }
+  
+  .nav__link {
+	font-family: 'Quicksand', sans-serif;
+	text-decoration: none;
+	color: #0A0B15;
+	background-color: transparent;
+	padding: 12px;
+	border-radius: 8px;
+	transition: all 0.3s;
+  }
+  
+  .nav__link--active, .nav__link:hover {
+	color: #F7F1E5;
+	background-color: #4C4B16;
+  }
