@@ -170,7 +170,9 @@ body {
 .nav__link,
 .hero__tagline,
 .hero__btn,
-.card__text {
+.card__text,
+.quote__txt,
+.quote__quotee {
   font-family: "Quicksand", sans-serif;
   color: #ffffff;
 }
@@ -200,7 +202,8 @@ body {
 
 .hero__title,
 .hero__tagline,
-.card__img {
+.card__img,
+.quote__txt {
   margin-bottom: 16px;
 }
 
@@ -208,7 +211,8 @@ body {
   font-size: 48.83px;
 }
 
-.hero__tagline {
+.hero__tagline,
+.quote__quotee {
   font-size: 31.25px;
 }
 
@@ -233,16 +237,24 @@ body {
   height: auto;
 }
 
+.feat,
+.quote {
+  padding: 4rem 0;
+}
+
 .feat {
   text-align: center;
-  padding: 4rem 0;
   background-color: #414141;
   box-shadow: 0 0 0 100vmax #414141;
   clip-path: inset(0 -100vmax);
 }
 
-.feat__title {
+.feat__title,
+.quote__txt {
   font-size: 39.06px;
+}
+
+.feat__title {
   margin-bottom: 2rem;
 }
 
@@ -250,6 +262,23 @@ body {
   display: block;
   width: 100%;
   height: auto;
+}
+
+.quote {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.quote__txt {
+  font-style: italic;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.quote__quotee {
+  font-weight: 700;
+  text-align: right;
 }
 
 .txt-highlight {
