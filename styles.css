@@ -132,22 +132,29 @@ body {
 
 .header,
 .nav,
-.hero {
+.hero,
+.feat__cards {
   display: flex;
+}
+
+.header,
+.hero,
+.feat {
+  padding: 32px 0;
 }
 
 .header,
 .hero {
   justify-content: space-between;
   align-items: center;
-  padding: 32px 0;
 }
 
 .header__logo,
-.hero__title {
-	font-family: "Oswald", sans-serif;
-	font-weight: 700;
-	color: #FFFFFF;
+.hero__title,
+.feat__title {
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+  color: #ffffff;
 }
 
 .header__logo {
@@ -155,22 +162,24 @@ body {
   text-transform: uppercase;
 }
 
-.nav {
+.nav,
+.feat__cards {
   gap: 16px;
 }
 
 .nav__link,
 .hero__tagline,
-.hero__btn {
-	font-family: "Quicksand", sans-serif;
-	color: #FFFFFF;
+.hero__btn,
+.card__text {
+  font-family: "Quicksand", sans-serif;
+  color: #ffffff;
 }
 
-.nav__link, 
+.nav__link,
 .hero__btn {
-	padding: 12px;
-	border: none;
-	transition: all 0.3s;
+  padding: 12px;
+  border: none;
+  transition: all 0.3s;
 }
 
 .nav__link {
@@ -180,8 +189,8 @@ body {
 
 .nav__link--active,
 .nav__link:hover {
-  color: #FFFFFF;
-  background-color: #AF0404;
+  color: #ffffff;
+  background-color: #af0404;
 }
 
 .hero__left-col,
@@ -190,33 +199,33 @@ body {
 }
 
 .hero__title,
-.hero__tagline {
-	margin-bottom: 16px;
-
+.hero__tagline,
+.card__img {
+  margin-bottom: 16px;
 }
 
 .hero__title {
-	font-size: 48.83px;
+  font-size: 48.83px;
 }
 
 .hero__tagline {
-	font-size: 31.25px;
+  font-size: 31.25px;
 }
-
 
 .nav__link,
 .hero__btn,
-.hero__img {
-	border-radius: 8px;
+.hero__img,
+.card__img {
+  border-radius: 8px;
 }
 
 .hero__btn {
-	font-size: 16px;
-	background-color: #AF0404;
+  font-size: 16px;
+  background-color: #af0404;
 }
 
 .hero__btn:hover {
-	background-color: #FF0000;
+  background-color: #ff0000;
 }
 
 .hero__img {
@@ -224,6 +233,25 @@ body {
   height: auto;
 }
 
+.feat {
+  text-align: center;
+  padding: 4rem 0;
+  background-color: #414141;
+  box-shadow: 0 0 0 100vmax #414141;
+  clip-path: inset(0 -100vmax);
+}
+
+.feat__title {
+  font-size: 39.06px;
+  margin-bottom: 2rem;
+}
+
+.card__img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 .txt-highlight {
-	color: #FF0000;
+  color: #ff0000;
 }
