@@ -133,7 +133,8 @@ body {
 .header,
 .nav,
 .hero,
-.feat__cards {
+.feat__cards,
+.proposition {
   display: flex;
 }
 
@@ -144,14 +145,16 @@ body {
 }
 
 .header,
-.hero {
+.hero,
+.proposition {
   justify-content: space-between;
   align-items: center;
 }
 
 .header__logo,
 .hero__title,
-.feat__title {
+.feat__title,
+.proposition__heading {
   font-family: "Oswald", sans-serif;
   font-weight: 700;
   color: #ffffff;
@@ -172,13 +175,16 @@ body {
 .hero__btn,
 .card__text,
 .quote__txt,
-.quote__quotee {
+.quote__quotee,
+.proposition__btn,
+.proposition__txt {
   font-family: "Quicksand", sans-serif;
   color: #ffffff;
 }
 
 .nav__link,
-.hero__btn {
+.hero__btn,
+.proposition__btn {
   padding: 12px;
   border: none;
   transition: all 0.3s;
@@ -203,7 +209,8 @@ body {
 .hero__title,
 .hero__tagline,
 .card__img,
-.quote__txt {
+.quote__txt,
+.proposition__heading {
   margin-bottom: 16px;
 }
 
@@ -219,16 +226,19 @@ body {
 .nav__link,
 .hero__btn,
 .hero__img,
-.card__img {
+.card__img,
+.proposition__btn {
   border-radius: 8px;
 }
 
-.hero__btn {
+.hero__btn,
+.proposition__btn {
   font-size: 16px;
   background-color: #af0404;
 }
 
-.hero__btn:hover {
+.hero__btn:hover,
+.proposition__btn:hover {
   background-color: #ff0000;
 }
 
@@ -250,7 +260,8 @@ body {
 }
 
 .feat__title,
-.quote__txt {
+.quote__txt,
+.proposition__heading {
   font-size: 39.06px;
 }
 
@@ -279,6 +290,36 @@ body {
 .quote__quotee {
   font-weight: 700;
   text-align: right;
+}
+
+.proposition {
+  padding: 32px;
+  background-color: #414141;
+  margin-bottom: 3rem;
+  border-radius: 8px;
+}
+
+.proposition__left-col {
+  flex: 0 0 75%;
+}
+
+.proposition__txt {
+  font-size: 20px;
+}
+
+.footer {
+  text-align: center;
+  padding: 16px;
+  background-color: #af0404;
+  box-shadow: 0 0 0 100vmax #af0404;
+  clip-path: inset(0 -100vmax);
+
+}
+
+.footer__txt {
+  font-family: 'Quicksan', sans-serif;
+  font-size: 12.80px;
+  color: #ffffff;
 }
 
 .txt-highlight {
