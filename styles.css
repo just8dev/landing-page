@@ -184,8 +184,8 @@ body {
   background-color: #AF0404;
 }
 
-.hero__txt-container,
-.hero__img-container {
+.hero__left-col,
+.hero__right-col {
   flex: 1;
 }
 
