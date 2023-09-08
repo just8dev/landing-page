@@ -4,121 +4,131 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Landing Page</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <div class="header">
-      <div class="header__logo">TwoWheelsHub.com</div>
-      <ul class="nav">
-        <li class="nav__item">
-          <a href="#" class="nav__link nav__link--active">Home</a>
-        </li>
-        <li class="nav__item"><a href="#" class="nav__link">About</a></li>
-        <li class="nav__item"><a href="#" class="nav__link">Contact</a></li>
-      </ul>
-    </div>
-
-    <div class="hero">
-      <div class="hero__left-col">
-        <div class="hero__title">
-          Ride into the <span class="txt-highlight">Thrill Zone</span>
+    <div class="container">
+      <header>
+        <div class="header-left">
+          <a class="header-left__logo" href="#"> TwoWheelsHub.com </a>
         </div>
-        <div class="hero__tagline">
-          Explore the World of Two-Wheeled Freedom and Adventure!
+        <div class="header-right">
+          <ul class="header-right__nav">
+            <li><a class="active" href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
         </div>
-        <button class="hero__btn">Start Your Journey!</button>
-      </div>
-      <div class="hero__right-col">
-        <img
-          src="./assets/img/joshua-reddekopp-OJMSA7da8uk-unsplash.jpg"
-          alt="A person in a motorcycle"
-          class="hero__img"
-        />
-      </div>
-    </div>
+      </header>
 
-    <div class="feat">
-      <div class="feat__title">Explore Our Motorcycle Fleet</div>
-      <div class="feat__cards">
-        <div class="card">
-          <img
-            src="https://placehold.co/600x400"
-            alt="Image placeholder"
-            class="card__img"
-          />
-          <div class="card__text">
-            <span class="txt-highlight">Sport Bikes</span> - Fast and agile for
-            thrilling rides.
+      <main>
+        <section class="hero">
+          <div class="hero-left">
+            <h1 class="hero-left__title">
+              Ride into the <span class="highlight">Thrill Zone</span>
+            </h1>
+            <p class="hero-left__tagline">
+              Explore the World of Two-Wheeled Freedom and Adventure!
+            </p>
+            <button class="hero-left__btn">Start Your Journey!</button>
           </div>
-        </div>
-        <div class="card">
-          <img
-            src="https://placehold.co/600x400"
-            alt="Image placeholder"
-            class="card__img"
-          />
-          <div class="card__text">
-            <span class="txt-highlight">Naked Bikes</span> - Stripped-down and
-            versatile for daily use.
+          <div class="hero-right">
+            <img
+              src="./assets/img/joshua-reddekopp-OJMSA7da8uk-unsplash.jpg"
+              alt="A man riding a motorcyle"
+            />
           </div>
-        </div>
-        <div class="card">
-          <img
-            src="https://placehold.co/600x400"
-            alt="Image placeholder"
-            class="card__img"
-          />
-          <div class="card__text">
-            <span class="txt-highlight">Cruiser Bikes</span> - Relaxed and
-            classic for comfortable cruising.
+        </section>
+
+        <section class="feat">
+          <h2 class="feat__title">Explore Our Motorcycle Fleet</h2>
+          <div class="feat__cards">
+            <div class="card">
+              <div class="card__img">
+                <img
+                  src="https://placehold.co/600x400"
+                  alt="Image Placeholder"
+                />
+              </div>
+              <p class="card__txt">
+                <span class="highlight">Sport Bikes</span> - Fast and agile for
+                thrilling rides.
+              </p>
+            </div>
+            <div class="card">
+              <div class="card__img">
+                <img
+                  src="https://placehold.co/600x400"
+                  alt="Image Placeholder"
+                />
+              </div>
+              <p class="card__txt">
+                <span class="highlight">Naked Bikes</span> - Stripped-down and
+                versatile for daily use.
+              </p>
+            </div>
+            <div class="card">
+              <div class="card__img">
+                <img
+                  src="https://placehold.co/600x400"
+                  alt="Image Placeholder"
+                />
+              </div>
+              <p class="card__txt">
+                <span class="highlight">Cruiser Bikes</span> - Relaxed and
+                classic for comfortable cruising.
+              </p>
+            </div>
+            <div class="card">
+              <div class="card__img">
+                <img
+                  src="https://placehold.co/600x400"
+                  alt="Image Placeholder"
+                />
+              </div>
+              <p class="card__txt">
+                <span class="highlight">Dual Sport Bikes</span> - For both
+                on-road and off-road adventures.
+              </p>
+            </div>
           </div>
-        </div>
-        <div class="card">
-          <img
-            src="https://placehold.co/600x400"
-            alt="Image placeholder"
-            class="card__img"
-          />
-          <div class="card__text">
-            <span class="txt-highlight">Dual Sport Bikes</span> - For both
-            on-road and off-road adventures.
+        </section>
+
+        <section class="quote">
+          <h2 class="quote__txt">
+            Always code as if the guy who ends up maintaining your code will be
+            a violent psychopath who knows where you live.
+          </h2>
+          <p class="quote__quotee highlight">- Martin Golding</p>
+        </section>
+
+        <section class="proposition">
+          <div class="propo-left">
+            <h2 class="propo-left__title">
+              Unleash Your Inner <span class="highlight">Road Warrior</span>
+            </h2>
+            <p class="propo-left__txt">
+              Our Exclusive Collection of High-Performance Motorcycles,
+              Engineered for Unrivaled Speed and Precision, Sets You Apart from
+              the Pack.
+            </p>
           </div>
-        </div>
-      </div>
-    </div>
+          <div class="propo-right">
+            <button class="propo-right__btn">Ride to Freedom Now!</button>
+          </div>
+        </section>
+      </main>
 
-    <div class="quote">
-      <div class="quote__txt">
-        Always code as if the guy who ends up maintaining your code will be a
-        violent psychopath who knows where you live.
-      </div>
-      <div class="quote__quotee">
-        <span class="txt-highlight">- Martin Golding</span>
-      </div>
+      <footer>
+        <p class="footer__txt">
+          Copryright &copy; 2023 | mjstine
+          <a href="https://github.com/mjstine" target="_blank">
+            <i class="fa-brands fa-github github-icon"></i
+          ></a>
+        </p>
+      </footer>
     </div>
-
-    <div class="proposition">
-      <div class="proposition__left-col">
-        <div class="proposition__heading">
-          Unleash Your Inner <span class="txt-highlight">Road Warrior</span>
-        </div>
-        <div class="proposition__txt">
-          Our Exclusive Collection of High-Performance Motorcycles, Engineered
-          for Unrivaled Speed and Precision, Sets You Apart from the Pack.
-        </div>
-      </div>
-      <button class="proposition__btn">Ride to Freedom Now!</button>
-    </div>
-
-    <div class="footer">
-      <div class="footer__txt">
-        Copyright &copy; 2023 | mjstine
-        <a href="https://github.com/mjstine" target="_blank">
-          <i class="fa-brands fa-github" style="color: #ffffff"></i
-        ></a>
-      </div>
-    </div>
-
     <script
       src="https://kit.fontawesome.com/e5542834ef.js"
       crossorigin="anonymous"
