@@ -264,6 +264,7 @@ footer {
 
 .footer__txt {
   font-size: var(--fs-6);
+  font-family: var(--ff-txt);
   text-align: center;
   color: var(--clr-txt);
 }
